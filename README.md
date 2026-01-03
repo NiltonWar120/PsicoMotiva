@@ -48,7 +48,7 @@ Mejora de la comunicación y fortalecimiento de relaciones sentimentales.
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/psicomotiva.git
+   git clone https://github.com/NiltonWar120/PsicoMotiva.git
    ```
 
 2. Abre el archivo `index.html` en tu navegador web
