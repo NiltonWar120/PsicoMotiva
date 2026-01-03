@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terapia para la Depresión - PsicoMotiva</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="CSS/index.css" />
+    
+    <!-- CSS de Depresión -->
+    <link rel="stylesheet" href="CSS/TerapiaDep.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo2.png" alt="PsicoMotiva Logo" class="logo-img" />
+                <div class="brand-text ms-3">
+                    <div class="brand-title">PSICÓLOGO</div>
+                    <div class="brand-name">Beder H. Meza Villanueva</div>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="servicios.html" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="serviciosDropdown">
+                            <li>
+                                <a class="dropdown-item" href="servicios.html">
+                                    <i class="fas fa-clinic-medical me-2"></i>
+                                    Servicios Generales
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaAns.html">
+                                    <i class="fas fa-heart-pulse me-2"></i>
+                                    Terapia para la Ansiedad
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaDep.html">
+                                    <i class="fas fa-brain me-2"></i>
+                                    Terapia para la Depresión
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaPareja.html">
+                                    <i class="fas fa-heart me-2"></i>
+                                    Terapia de Pareja
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tupagina" target="_blank" class="social-link facebook" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tupagina" target="_blank" class="social-link instagram" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@tupagina" target="_blank" class="social-link tiktok" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/tupagina" target="_blank" class="social-link linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Hero Section con imagen de fondo -->
+        <section class="hero-depresion">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="hero-content">
+                            <span class="hero-tag">SERVICIOS</span>
+                            <h1 class="hero-title">TERAPIA PARA LA<br>DEPRESIÓN</h1>
+                            <p class="hero-subtitle">Recupera tu motivación y vuelve a disfrutar de la vida</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Descripción del Servicio -->
+        <section class="descripcion-servicio" >
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="imagen-sesion">
+                            <img src="img/t2.jpg" alt="Sesión de Terapia">
+                            <div class="duracion-badge">
+                                <div class="badge-content">
+                                    <span class="badge-label">Duración de Sesión:</span>
+                                    <span class="badge-time">60 Minutos</span>
+                                </div>
+                            </div>
+                            <div class="floating-element elem-1">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="floating-element elem-2">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contenido-descripcion">
+                            <span class="section-tag">DESCRIPCIÓN DEL SERVICIO</span>
+                            <h2 class="section-title">Encuentra esperanza, recupera tu bienestar.</h2>
+                            <p class="section-text">
+                                La Terapia para la Depresión está enfocada en ayudarte a superar los sentimientos 
+                                de tristeza profunda, desesperanza y falta de interés en las actividades diarias. 
+                                Utilizamos enfoques terapéuticos basados en evidencia que te permitirán identificar 
+                                patrones de pensamiento negativos, desarrollar estrategias de afrontamiento efectivas 
+                                y recuperar gradualmente tu motivación y alegría de vivir.
+                            </p>
+                            <a href="https://wa.me/51989077759?text=Hola,%20quiero%20agendar%20una%20cita%20para%20Terapia%20de%20Depresión" 
+                               target="_blank" 
+                               class="btn-reservar">
+                                <i class="fab fa-whatsapp"></i>
+                                RESERVAR CITA
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                <!-- Síntomas que Tratamos -->
+        <section class="sintomas-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿TE IDENTIFICAS?</span>
+                    <h2 class="section-title">Señales de Depresión</h2>
+                    <p class="section-subtitle">Si experimentas varios de estos síntomas, podemos ayudarte</p>
+                </div>
+
+                <div class="sintomas-grid">
+                    <div class="sintoma-card">
+                        <i class="fas fa-cloud-rain"></i>
+                        <h5>Tristeza Persistente</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-battery-empty"></i>
+                        <h5>Falta de Energía</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-bed"></i>
+                        <h5>Problemas de Sueño</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-utensils"></i>
+                        <h5>Cambios en el Apetito</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-ban"></i>
+                        <h5>Pérdida de Interés</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-user-slash"></i>
+                        <h5>Aislamiento Social</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-brain"></i>
+                        <h5>Dificultad para Concentrarse</h5>
+                    </div>
+                    <div class="sintoma-card">
+                        <i class="fas fa-frown"></i>
+                        <h5>Sentimientos de Culpa</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Diferencias: Tristeza vs Depresión -->
+        <section class="diferencias-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">INFORMACIÓN IMPORTANTE</span>
+                    <h2 class="section-title">Tristeza vs Depresión</h2>
+                    <p class="section-subtitle">Conoce las diferencias clave</p>
+                </div>
+
+                <div class="comparacion-container">
+                    <div class="comparacion-card tristeza">
+                        <div class="card-header">
+                            <i class="fas fa-cloud"></i>
+                            <h3>Tristeza Normal</h3>
+                        </div>
+                        <ul class="caracteristicas-lista">
+                            <li><i class="fas fa-check"></i> Reacción natural a eventos difíciles</li>
+                            <li><i class="fas fa-check"></i> Duración temporal (días o semanas)</li>
+                            <li><i class="fas fa-check"></i> No interfiere significativamente con la vida diaria</li>
+                            <li><i class="fas fa-check"></i> Mejora con el tiempo y apoyo social</li>
+                            <li><i class="fas fa-check"></i> Mantiene interés en algunas actividades</li>
+                        </ul>
+                    </div>
+
+                    <div class="vs-divider">
+                        <span>VS</span>
+                    </div>
+
+                    <div class="comparacion-card depresion">
+                        <div class="card-header">
+                            <i class="fas fa-cloud-rain"></i>
+                            <h3>Depresión Clínica</h3>
+                        </div>
+                        <ul class="caracteristicas-lista">
+                            <li><i class="fas fa-exclamation-triangle"></i> Trastorno del estado de ánimo</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> Persiste por semanas o meses</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> Afecta gravemente el funcionamiento</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> Requiere tratamiento profesional</li>
+                            <li><i class="fas fa-exclamation-triangle"></i> Pérdida total de interés y placer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Por Qué Elegirnos? -->
+        <section class="porque-elegirnos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿POR QUÉ ELEGIRNOS?</span>
+                    <h2 class="section-title">Recupera tu Felicidad</h2>
+                </div>
+
+                <div class="razones-grid">
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="razon-title">Experiencia Especializada</h4>
+                        <p class="razon-text">
+                            Psicólogos expertos en trastornos del estado de ánimo con formación 
+                            en terapias de última generación.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="razon-title">Enfoque Integral</h4>
+                        <p class="razon-text">
+                            Abordamos la depresión desde múltiples ángulos: cognitivo, emocional, 
+                            conductual y social.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 class="razon-title">Progreso Medible</h4>
+                        <p class="razon-text">
+                            Monitoreamos tu evolución constantemente para ajustar el tratamiento 
+                            y maximizar resultados.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-shield-heart"></i>
+                        </div>
+                        <h4 class="razon-title">Ambiente Seguro</h4>
+                        <p class="razon-text">
+                            Ofrecemos un espacio de aceptación sin juicios donde puedes expresarte 
+                            libremente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objetivos de la Terapia -->
+        <section class="objetivos-terapia">
+            <div class="objetivos-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="objetivos-imagen">
+                            <img src="img/objetivos-dep.jpg" alt="Objetivos de la Terapia">
+                            <div class="stats-floating">
+                                <div class="stat-box">
+                                    <span class="stat-number">87%</span>
+                                    <span class="stat-label">Mejoría Significativa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="objetivos-contenido">
+                            <span class="section-tag">OBJETIVOS</span>
+                            <h2 class="section-title">Lo que lograrás con la terapia</h2>
+                            
+                            <div class="objetivos-lista">
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">01</div>
+                                    <div class="objetivo-content">
+                                        <h4>Comprender tu Depresión</h4>
+                                        <p>Entender las causas subyacentes y los factores que mantienen tu estado depresivo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">02</div>
+                                    <div class="objetivo-content">
+                                        <h4>Modificar Pensamientos Negativos</h4>
+                                        <p>Identificar y cambiar los patrones de pensamiento que alimentan la depresión.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">03</div>
+                                    <div class="objetivo-content">
+                                        <h4>Recuperar la Motivación</h4>
+                                        <p>Retomar gradualmente las actividades que solías disfrutar y encontrar nuevos intereses.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">04</div>
+                                    <div class="objetivo-content">
+                                        <h4>Prevenir Recaídas</h4>
+                                        <p>Desarrollar herramientas para mantener tu bienestar a largo plazo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+       
+
+        <!-- Proceso de Terapia -->
+        <section class="proceso-terapia">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿CÓMO FUNCIONA?</span>
+                    <h2 class="section-title">Proceso de Recuperación</h2>
+                </div>
+
+                <div class="proceso-timeline">
+                    <div class="proceso-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Evaluación Completa</h4>
+                            <p>Realizamos una evaluación exhaustiva de tus síntomas, historia y circunstancias actuales.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Plan Terapéutico</h4>
+                            <p>Diseñamos un tratamiento personalizado que puede incluir TCC, terapia interpersonal o activación conductual.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Trabajo Activo</h4>
+                            <p>Trabajamos juntos para modificar pensamientos y conductas, estableciendo metas alcanzables.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Mantenimiento</h4>
+                            <p>Te equipamos con estrategias para mantener tu mejoría y prevenir futuras recaídas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="cta-final" >
+            <div class="cta-overlay"></div>
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <h2>No estás solo en esto</h2>
+                        <p>La depresión es tratable. Da el primer paso hacia tu recuperación hoy mismo.</p>
+                        <div class="cta-buttons">
+                            <a href="https://wa.me/51989077759?text=Hola,%20quiero%20agendar%20una%20cita%20para%20Terapia%20de%20Depresión" 
+                               target="_blank" 
+                               class="btn-primary-cta">
+                                <i class="fab fa-whatsapp"></i>
+                                Agendar Cita por WhatsApp
+                            </a>
+                            <a href="tel:+51989077759" class="btn-secondary-cta">
+                                <i class="fas fa-phone"></i>
+                                Llamar Ahora
+                            </a>
+                        </div>
+                        <div class="cta-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Atención inmediata</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-user-lock"></i>
+                                <span>Total Confidencialidad</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-heart"></i>
+                                <span>Con Empatía y Profesionalismo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- FOOTER -->
+    <footer class="footer-creative">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-header">
+                    <img src="img/logof.png" alt="PsicoMotiva">
+                    <h2>PsicoMotiva</h2>
+                </div>
+                <p class="brand-text">
+                    Acompañamos tu bienestar emocional con atención psicológica
+                    profesional, humana y totalmente confidencial.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="footer-email">
+                    <a href="mailto:ipdecti2050@gmail.com">ipdecti2050@gmail.com</a>
+                </span>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div class="footer-hours">
+                <h4>Horarios de Atención</h4>
+                <div class="hour-item">
+                    <span>Lunes - Viernes</span>
+                    <strong>10:00 am – 8:00 pm</strong>
+                </div>
+                <div class="hour-item">
+                    <span>Sábados</span>
+                    <strong>8:00 am – 12:00 pm</strong>
+                </div>
+            </div>
+
+            <div class="footer-payments">
+                <h4>Métodos de Pago</h4>
+                <div class="payment-grid">
+                    <img src="img/yape.png" alt="Yape" data-banco="yape">
+                    <img src="img/plin.png" alt="Plin" data-banco="plin">
+                    <img src="img/bcp.png" alt="BCP" data-banco="bcp">
+                    <img src="img/bbva.png" alt="BBVA" data-banco="bbva">
+                    <img src="img/scotiabank.png" alt="Scotiabank" data-banco="scotiabank">
+                    <img src="img/crediscotia.png" alt="CrediScotia" data-banco="crediscotia">
+                    <img src="img/interbank.png" alt="Interbank" data-banco="interbank">
+                    <img src="img/banco-nacion.png" alt="Banco de la Nación" data-banco="banconacion">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+             <p> © 2025 PSICOMOTIVA · Bienestar emocional profesional · 
+        Desarrollado por <strong>GN Studio</strong></p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalBanco">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <h2 class="modal-title">¡CONECTA CONTIGO, DESDE AHORA!</h2>
+            <p class="modal-subtitle">Realiza tu depósito o transferencia a nuestra cuenta <strong id="bancoNombre">BBVA</strong> y da el primer paso hacia tu bienestar emocional.</p>
+
+            <div class="banco-logo">
+                <img id="bancoLogo" src="img/bbva.png" alt="Banco">
+            </div>
+
+            <div id="cuentasContainer">
+                <!-- Se llenará dinámicamente -->
+            </div>
+
+            <div class="titular-info">
+                <i class="fas fa-user"></i>
+                <span class="titular-nombre">A nombre de: Beder Henry Meza V.</span>
+            </div>
+
+            <p class="modal-footer-text">
+                Luego de realizar el pago, envíanos tu comprobante por WhatsApp para confirmar tu sesión.
+            </p>
+        </div>
+    </div>
+   <script src="JS/TerapiaPareja.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

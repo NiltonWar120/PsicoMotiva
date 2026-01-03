@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terapia de Pareja - PsicoMotiva</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="CSS/index.css">
+    <!-- CSS de Terapia de Pareja -->
+    <link rel="stylesheet" href="CSS/TerapiaPareja.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo2.png" alt="PsicoMotiva Logo" class="logo-img" />
+                <div class="brand-text ms-3">
+                    <div class="brand-title">PSICÓLOGO</div>
+                    <div class="brand-name">Beder H. Meza Villanueva</div>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="servicios.html" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="serviciosDropdown">
+                            <li>
+                                <a class="dropdown-item" href="servicios.html">
+                                    <i class="fas fa-clinic-medical me-2"></i>
+                                    Servicios Generales
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaAns.html">
+                                    <i class="fas fa-heart-pulse me-2"></i>
+                                    Terapia para la Ansiedad
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaDep.html">
+                                    <i class="fas fa-brain me-2"></i>
+                                    Terapia para la Depresión
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaPareja.html">
+                                    <i class="fas fa-heart me-2"></i>
+                                    Terapia de Pareja
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tupagina" target="_blank" class="social-link facebook" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tupagina" target="_blank" class="social-link instagram" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@tupagina" target="_blank" class="social-link tiktok" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/tupagina" target="_blank" class="social-link linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-pareja">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="hero-content">
+                            <span class="hero-tag">SERVICIOS</span>
+                            <h1 class="hero-title">TERAPIA DE<br>PAREJA</h1>
+                            <p class="hero-subtitle">Fortaleciendo vínculos, construyendo amor duradero</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Descripción del Servicio -->
+        <section class="descripcion-servicio">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="imagen-sesion">
+                            <img src="img/pareja-terapia.jpg" alt="Terapia de Pareja">
+                            <div class="duracion-badge">
+                                <div class="badge-content">
+                                    <span class="badge-label">Duración de Sesión:</span>
+                                    <span class="badge-time">90 Minutos</span>
+                                </div>
+                            </div>
+                            <div class="floating-element elem-1">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="floating-element elem-2">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contenido-descripcion">
+                            <span class="section-tag">DESCRIPCIÓN DEL SERVICIO</span>
+                            <h2 class="section-title">Reconstruye la conexión con tu pareja.</h2>
+                            <p class="section-text">
+                                La Terapia de Pareja es un espacio seguro donde ambos pueden expresar sus 
+                                sentimientos, resolver conflictos y fortalecer su relación. Trabajamos en 
+                                mejorar la comunicación, reconstruir la confianza y redescubrir el amor que 
+                                los unió. Ya sea que estén atravesando una crisis o simplemente quieran mejorar 
+                                su vínculo, estamos aquí para acompañarlos en cada paso del camino.
+                            </p>
+                            <a href="https://wa.me/51989077759?text=Hola,%20quiero%20agendar%20una%20cita%20para%20Terapia%20de%20Pareja" 
+                               target="_blank" 
+                               class="btn-reservar">
+                                <i class="fab fa-whatsapp"></i>
+                                RESERVAR CITA
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Señales para buscar ayuda -->
+        <section class="senales-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿NECESITAN AYUDA?</span>
+                    <h2 class="section-title">Señales de que es momento de actuar</h2>
+                    <p class="section-subtitle">Si experimentan varias de estas situaciones, la terapia puede ayudarlos</p>
+                </div>
+
+                <div class="senales-grid">
+                    <div class="senal-card">
+                        <i class="fas fa-comment-slash"></i>
+                        <h5>Comunicación Deficiente</h5>
+                        <p>Conversaciones que terminan en discusiones o silencio</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-fire"></i>
+                        <h5>Conflictos Constantes</h5>
+                        <p>Peleas frecuentes por las mismas razones</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-heart-broken"></i>
+                        <h5>Pérdida de Conexión</h5>
+                        <p>Sienten que son extraños viviendo juntos</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-user-secret"></i>
+                        <h5>Falta de Confianza</h5>
+                        <p>Infidelidad, mentiras o secretos</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-bed"></i>
+                        <h5>Problemas de Intimidad</h5>
+                        <p>Distanciamiento físico o emocional</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-route"></i>
+                        <h5>Diferentes Caminos</h5>
+                        <p>Metas y valores que ya no están alineados</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-baby"></i>
+                        <h5>Crisis Familiares</h5>
+                        <p>Desacuerdos sobre crianza o familia</p>
+                    </div>
+                    <div class="senal-card">
+                        <i class="fas fa-door-open"></i>
+                        <h5>Pensamientos de Separación</h5>
+                        <p>Consideran terminar la relación</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Por Qué Elegirnos? -->
+        <section class="porque-elegirnos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿POR QUÉ ELEGIRNOS?</span>
+                    <h2 class="section-title">Tu Relación Merece lo Mejor</h2>
+                </div>
+
+                <div class="razones-grid">
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4 class="razon-title">Especialistas en Parejas</h4>
+                        <p class="razon-text">
+                            Terapeutas certificados con amplia experiencia en dinámica de parejas 
+                            y resolución de conflictos relacionales.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4 class="razon-title">Espacio Neutral e Imparcial</h4>
+                        <p class="razon-text">
+                            Creamos un ambiente donde ambos se sienten escuchados y validados, 
+                            sin tomar partido.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4 class="razon-title">Comunicación Efectiva</h4>
+                        <p class="razon-text">
+                            Enseñamos técnicas prácticas para expresar emociones y necesidades 
+                            de manera asertiva y empática.
+                        </p>
+                    </div>
+
+                    <div class="razon-card">
+                        <div class="razon-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 class="razon-title">Resultados Comprobados</h4>
+                        <p class="razon-text">
+                            Metodologías basadas en evidencia que han ayudado a cientos de 
+                            parejas a reconstruir su relación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objetivos de la Terapia -->
+        <section class="objetivos-terapia">
+            <div class="objetivos-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="objetivos-imagen">
+                            <img src="img/objetivos-pareja.jpg" alt="Objetivos de la Terapia">
+                            <div class="stats-floating">
+                                <div class="stat-box">
+                                    <span class="stat-number">92%</span>
+                                    <span class="stat-label">Parejas Satisfechas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="objetivos-contenido">
+                            <span class="section-tag">OBJETIVOS</span>
+                            <h2 class="section-title">Lo que lograrán juntos</h2>
+                            
+                            <div class="objetivos-lista">
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">01</div>
+                                    <div class="objetivo-content">
+                                        <h4>Mejorar la Comunicación</h4>
+                                        <p>Aprender a expresar sentimientos y necesidades de forma clara, honesta y respetuosa.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">02</div>
+                                    <div class="objetivo-content">
+                                        <h4>Resolver Conflictos</h4>
+                                        <p>Desarrollar herramientas para manejar desacuerdos de manera constructiva y sin agresividad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">03</div>
+                                    <div class="objetivo-content">
+                                        <h4>Reconstruir la Confianza</h4>
+                                        <p>Sanar heridas del pasado y establecer bases sólidas para un futuro más seguro.</p>
+                                    </div>
+                                </div>
+
+                                <div class="objetivo-item">
+                                    <div class="objetivo-numero">04</div>
+                                    <div class="objetivo-content">
+                                        <h4>Fortalecer la Intimidad</h4>
+                                        <p>Recuperar la conexión emocional, física y espiritual que los une como pareja.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Problemas Comunes que Tratamos -->
+        <section class="problemas-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ÁREAS DE TRABAJO</span>
+                    <h2 class="section-title">Problemas Comunes que Abordamos</h2>
+                </div>
+
+                <div class="problemas-grid">
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Dificultades de Comunicación</h4>
+                        <p>Malentendidos, falta de escucha activa, estilos de comunicación incompatibles.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-shield-heart"></i>
+                        </div>
+                        <h4>Infidelidad y Traición</h4>
+                        <p>Reconstrucción de confianza, manejo del dolor emocional, decisión sobre el futuro.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h4>Conflictos Financieros</h4>
+                        <p>Desacuerdos sobre dinero, gastos, ahorro y prioridades económicas.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Problemas con Familias</h4>
+                        <p>Interferencia de familiares, límites con suegros, conflictos intergeneracionales.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-venus-mars"></i>
+                        </div>
+                        <h4>Intimidad Sexual</h4>
+                        <p>Diferencias en deseos, disfunciones, falta de satisfacción mutua.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <h4>Desacuerdos en Crianza</h4>
+                        <p>Diferentes estilos parentales, disciplina, educación de los hijos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso de Terapia -->
+        <section class="proceso-terapia">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">¿CÓMO FUNCIONA?</span>
+                    <h2 class="section-title">Nuestro Proceso Terapéutico</h2>
+                </div>
+
+                <div class="proceso-timeline">
+                    <div class="proceso-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Evaluación Inicial</h4>
+                            <p>Primera sesión donde conocemos su historia, identificamos problemas principales y establecemos metas terapéuticas conjuntas.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Identificación de Patrones</h4>
+                            <p>Exploramos dinámicas relacionales, patrones de comunicación y ciclos de conflicto que mantienen los problemas.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Desarrollo de Habilidades</h4>
+                            <p>Enseñamos técnicas de comunicación, resolución de conflictos y manejo emocional que pueden aplicar inmediatamente.</p>
+                        </div>
+                    </div>
+
+                    <div class="proceso-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Consolidación y Prevención</h4>
+                            <p>Fortalecemos los cambios logrados y desarrollamos estrategias para prevenir futuras crisis relacionales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modalidades de Terapia -->
+      
+        <!-- CTA Final -->
+        <section class="cta-final">
+            <div class="cta-overlay"></div>
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <h2>Den el primer paso hacia una relación más fuerte</h2>
+                        <p>Cada pareja atraviesa dificultades. Lo importante es enfrentarlas juntos con ayuda profesional.</p>
+                        <div class="cta-buttons">
+                            <a href="https://wa.me/51989077759?text=Hola,%20quiero%20agendar%20una%20cita%20para%20Terapia%20de%20Pareja" 
+                               target="_blank" 
+                               class="btn-primary-cta">
+                                <i class="fab fa-whatsapp"></i>
+                                Agendar Cita por WhatsApp
+                            </a>
+                            <a href="tel:+51989077759" class="btn-secondary-cta">
+                                <i class="fas fa-phone"></i>
+                                Llamar Ahora
+                            </a>
+                        </div>
+                        <div class="cta-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Sesiones de 90 minutos</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-user-lock"></i>
+                                <span>Total Confidencialidad</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-heart"></i>
+                                <span>Espacio Sin Juicios</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-creative">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-header">
+                    <img src="img/logof.png" alt="PsicoMotiva">
+                    <h2>PsicoMotiva</h2>
+                </div>
+                <p class="brand-text">
+                    Acompañamos tu bienestar emocional con atención psicológica
+                    profesional, humana y totalmente confidencial.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="footer-email">
+                    <a href="mailto:ipdecti2050@gmail.com">ipdecti2050@gmail.com</a>
+                </span>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div class="footer-hours">
+                <h4>Horarios de Atención</h4>
+                <div class="hour-item">
+                    <span>Lunes - Viernes</span>
+                    <strong>10:00 am – 8:00 pm</strong>
+                </div>
+                <div class="hour-item">
+                    <span>Sábados</span>
+                    <strong>8:00 am – 12:00 pm</strong>
+                </div>
+            </div>
+
+            <div class="footer-payments">
+                <h4>Métodos de Pago</h4>
+                <div class="payment-grid">
+                    <img src="img/yape.png" alt="Yape" data-banco="yape">
+                    <img src="img/plin.png" alt="Plin" data-banco="plin">
+                    <img src="img/bcp.png" alt="BCP" data-banco="bcp">
+                    <img src="img/bbva.png" alt="BBVA" data-banco="bbva">
+                    <img src="img/scotiabank.png" alt="Scotiabank" data-banco="scotiabank">
+                    <img src="img/crediscotia.png" alt="CrediScotia" data-banco="crediscotia">
+                    <img src="img/interbank.png" alt="Interbank" data-banco="interbank">
+                    <img src="img/banco-nacion.png" alt="Banco de la Nación" data-banco="banconacion">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+             <p> © 2025 PSICOMOTIVA · Bienestar emocional profesional · 
+        Desarrollado por <strong>GN Studio</strong></p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalBanco">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <h2 class="modal-title">¡CONECTA CONTIGO, DESDE AHORA!</h2>
+            <p class="modal-subtitle">Realiza tu depósito o transferencia a nuestra cuenta <strong id="bancoNombre">BBVA</strong> y da el primer paso hacia tu bienestar emocional.</p>
+
+            <div class="banco-logo">
+                <img id="bancoLogo" src="img/bbva.png" alt="Banco">
+            </div>
+
+            <div id="cuentasContainer">
+                <!-- Se llenará dinámicamente -->
+            </div>
+
+            <div class="titular-info">
+                <i class="fas fa-user"></i>
+                <span class="titular-nombre">A nombre de: Beder Henry Meza V.</span>
+            </div>
+
+            <p class="modal-footer-text">
+                Luego de realizar el pago, envíanos tu comprobante por WhatsApp para confirmar tu sesión.
+            </p>
+        </div>
+    </div>
+   <script src="JS/TerapiaPareja.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosotros - PsicoMotiva</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- CSS Principal (para header y footer) -->
+    <link rel="stylesheet" href="CSS/index.css" />
+    
+    <!-- CSS de Nosotros -->
+    <link rel="stylesheet" href="CSS/nosotros.css" />
+</head>
+<body>
+    <!-- HEADER - Copiado del principal.html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo2.png" alt="PsicoMotiva Logo" class="logo-img" />
+                <div class="brand-text ms-3">
+                    <div class="brand-title">PSICÓLOGO</div>
+                    <div class="brand-name">Beder H. Meza Villanueva</div>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="servicios.html" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="serviciosDropdown">
+                            <li>
+                                <a class="dropdown-item" href="servicios.html">
+                                    <i class="fas fa-clinic-medical me-2"></i>
+                                    Servicios Generales
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaAns.html">
+                                    <i class="fas fa-heart-pulse me-2"></i>
+                                    Terapia para la Ansiedad
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaDep.html">
+                                    <i class="fas fa-brain me-2"></i>
+                                    Terapia para la Depresión
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="TerapiaPareja.html">
+                                    <i class="fas fa-heart me-2"></i>
+                                    Terapia de Pareja
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tupagina" target="_blank" class="social-link facebook" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tupagina" target="_blank" class="social-link instagram" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@tupagina" target="_blank" class="social-link tiktok" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/tupagina" target="_blank" class="social-link linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-nosotros" style="background-image: url('img/s1.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                   <!--   <h1 class="hero-title">NOSOTROS</h1>-->
+                    <p class="hero-subtitle">Encuentra el apoyo que necesitas en PsicoMotiva.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiénes Somos -->
+        <section class="quienes-somos">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img src="img/n2.jpg" alt="Equipo PsicoContigo" class="main-image">
+                            <div class="decorative-circle"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-box">
+                            <span class="section-tag">Más que un equipo, una misión</span>
+                            <h2 class="section-title">¿Quiénes Somos?</h2>
+                            <p class="section-text">
+                                PsicoMotiva es una iniciativa que combina psicoterapia y gestión 
+                                estratégica para brindar apoyo emocional a adultos entre 18 y 45 
+                                años. Especializada en ansiedad, depresión y problemas de pareja, 
+                                ofrece un espacio seguro y profesional. Lo que comenzó como un 
+                                proyecto personal hoy es una plataforma consolidada que impulsa 
+                                el bienestar y desarrollo personal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="mision-vision">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Misión -->
+                    <div class="col-lg-6">
+                        <div class="mv-card mision-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="mv-title">Nuestra Misión</h3>
+                            <p class="mv-text">
+                                Proporcionar atención psicológica de calidad, accesible y personalizada, 
+                                que promueva el bienestar emocional y el desarrollo personal de cada 
+                                individuo. Nos comprometemos a crear un espacio seguro donde nuestros 
+                                pacientes puedan explorar, sanar y crecer, acompañándolos en su camino 
+                                hacia una vida más plena y satisfactoria.
+                            </p>
+                            <div class="decorative-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visión -->
+                    <div class="col-lg-6">
+                        <div class="mv-card vision-card">
+                            <div class="mv-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3 class="mv-title">Nuestra Visión</h3>
+                            <p class="mv-text">
+                                Ser reconocidos como líderes en salud mental, transformando la manera 
+                                en que las personas perciben y abordan su bienestar emocional. Aspiramos 
+                                a crear una comunidad donde la salud mental sea una prioridad, eliminando 
+                                estigmas y facilitando el acceso a servicios profesionales que impulsen 
+                                el desarrollo integral de cada persona.
+                            </p>
+                            <div class="decorative-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valores -->
+        <section class="valores-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Lo que nos define</span>
+                    <h2 class="section-title">Nuestros Valores</h2>
+                </div>
+
+                <div class="valores-grid">
+                    <!-- Valor 1 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 class="valor-title">Empatía</h4>
+                        <p class="valor-text">
+                            Nos ponemos en el lugar de nuestros pacientes, comprendiendo 
+                            sus emociones y necesidades sin juzgar.
+                        </p>
+                    </div>
+
+                    <!-- Valor 2 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="valor-title">Confidencialidad</h4>
+                        <p class="valor-text">
+                            Garantizamos un espacio seguro donde toda información 
+                            compartida es tratada con absoluta privacidad.
+                        </p>
+                    </div>
+
+                    <!-- Valor 3 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="valor-title">Profesionalismo</h4>
+                        <p class="valor-text">
+                            Contamos con especialistas altamente capacitados que 
+                            aplican las mejores prácticas terapéuticas.
+                        </p>
+                    </div>
+
+                    <!-- Valor 4 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4 class="valor-title">Compromiso</h4>
+                        <p class="valor-text">
+                            Nos dedicamos completamente al bienestar de cada paciente, 
+                            acompañándolos en cada paso de su proceso.
+                        </p>
+                    </div>
+
+                    <!-- Valor 5 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="valor-title">Respeto</h4>
+                        <p class="valor-text">
+                            Valoramos la diversidad y tratamos a cada persona con 
+                            dignidad, sin importar su origen o circunstancias.
+                        </p>
+                    </div>
+
+                    <!-- Valor 6 -->
+                    <div class="valor-card">
+                        <div class="valor-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="valor-title">Innovación</h4>
+                        <p class="valor-text">
+                            Nos mantenemos actualizados con las últimas técnicas y 
+                            enfoques terapéuticos para ofrecer el mejor servicio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contactanos -->
+        <section class="contactanos-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contacto-content">
+                            <span class="section-tag">¿Listo para dar el primer paso?</span>
+                            <h2 class="section-title">Contáctanos</h2>
+                            <p class="section-text">
+                                Estamos aquí para ayudarte. Agenda tu primera consulta 
+                                y comienza tu camino hacia el bienestar emocional.
+                            </p>
+
+                            <div class="contact-info">
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h5>Teléfono</h5>
+                                        <p>+51 989 077 759</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h5>Email</h5>
+                                        <p>ipdecti2050@gmail.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h5>Horario</h5>
+                                        <p>Lunes - Viernes: 10:00 am – 8:00 pm</p>
+                                        <p>Sábados: 8:00 am – 12:00 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="https://wa.me/51989077759" target="_blank" class="btn-contacto">
+                                <i class="fab fa-whatsapp"></i>
+                                Agenda tu Cita
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="contacto-image">
+                            <img src="img/n1.png" alt="Contacto PsicoContigo">
+                            <div class="floating-shapes">
+                                <div class="shape shape-1"></div>
+                                <div class="shape shape-2"></div>
+                                <div class="shape shape-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- FOOTER -->
+    <footer class="footer-creative">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-header">
+                    <img src="img/logof.png" alt="PsicoMotiva">
+                    <h2>PsicoMotiva</h2>
+                </div>
+                <p class="brand-text">
+                    Acompañamos tu bienestar emocional con atención psicológica
+                    profesional, humana y totalmente confidencial.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="footer-email">
+                    <a href="mailto:ipdecti2050@gmail.com">ipdecti2050@gmail.com</a>
+                </span>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div class="footer-hours">
+                <h4>Horarios de Atención</h4>
+                <div class="hour-item">
+                    <span>Lunes - Viernes</span>
+                    <strong>10:00 am – 8:00 pm</strong>
+                </div>
+                <div class="hour-item">
+                    <span>Sábados</span>
+                    <strong>8:00 am – 12:00 pm</strong>
+                </div>
+            </div>
+
+            <div class="footer-payments">
+                <h4>Métodos de Pago</h4>
+                <div class="payment-grid">
+                    <img src="img/yape.png" alt="Yape" data-banco="yape">
+                    <img src="img/plin.png" alt="Plin" data-banco="plin">
+                    <img src="img/bcp.png" alt="BCP" data-banco="bcp">
+                    <img src="img/bbva.png" alt="BBVA" data-banco="bbva">
+                    <img src="img/scotiabank.png" alt="Scotiabank" data-banco="scotiabank">
+                    <img src="img/crediscotia.png" alt="CrediScotia" data-banco="crediscotia">
+                    <img src="img/interbank.png" alt="Interbank" data-banco="interbank">
+                    <img src="img/banco-nacion.png" alt="Banco de la Nación" data-banco="banconacion">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+             <p> © 2025 PSICOMOTIVA · Bienestar emocional profesional · 
+        Desarrollado por <strong>GN Studio</strong></p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalBanco">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <h2 class="modal-title">¡CONECTA CONTIGO, DESDE AHORA!</h2>
+            <p class="modal-subtitle">Realiza tu depósito o transferencia a nuestra cuenta <strong id="bancoNombre">BBVA</strong> y da el primer paso hacia tu bienestar emocional.</p>
+
+            <div class="banco-logo">
+                <img id="bancoLogo" src="img/bbva.png" alt="Banco">
+            </div>
+
+            <div id="cuentasContainer">
+                <!-- Se llenará dinámicamente -->
+            </div>
+
+            <div class="titular-info">
+                <i class="fas fa-user"></i>
+                <span class="titular-nombre">A nombre de: Beder Henry Meza V.</span>
+            </div>
+
+            <p class="modal-footer-text">
+                Luego de realizar el pago, envíanos tu comprobante por WhatsApp para confirmar tu sesión.
+            </p>
+        </div>
+    </div>
+   <script src="JS/TerapiaPareja.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

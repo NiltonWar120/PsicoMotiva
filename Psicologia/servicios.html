@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios | PsicoMotiva</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/servicios.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo2.png" alt="PsicoMotiva Logo" class="logo-img" />
+          <div class="brand-text ms-3">
+            <div class="brand-title">PSICÓLOGO</div>
+            <div class="brand-name">Beder H. Meza Villanueva</div>
+          </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#servicios" id="serviciosDropdown" role="button" data-bs-toggle="dropdown">
+                Servicios
+              </a>
+              <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="serviciosDropdown">
+                <li>
+                  <a class="dropdown-item" href="#servicios-generales">
+                    <i class="fas fa-clinic-medical me-2"></i>
+                    Servicios Generales
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaAns.html">
+                    <i class="fas fa-heart-pulse me-2"></i>
+                    Terapia para la Ansiedad
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaDep.html">
+                    <i class="fas fa-brain me-2"></i>
+                    Terapia para la Depresión
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaPareja.html">
+                    <i class="fas fa-heart me-2"></i>
+                    Terapia de Pareja
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/tupagina" target="_blank" class="social-link facebook" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/tupagina" target="_blank" class="social-link instagram" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@tupagina" target="_blank" class="social-link tiktok" aria-label="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/tupagina" target="_blank" class="social-link linkedin" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="services-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>SERVICIOS</h1>
+                <p>Encuentra el apoyo profesional que necesitas para tu bienestar emocional</p>
+            </div>
+        </section>
+
+        <!-- NUESTROS PAQUETES -->
+   <section class="paquetes-section">
+        <!-- Header -->
+        <div class="section-header">
+            <div class="section-subtitle">Elige tu</div>
+            <h2 class="section-title">Paquete de Terapia</h2>
+        </div>
+
+        <!-- Packages Grid -->
+        <div class="packages-grid">
+            <!-- Paquete Esencial -->
+            <div class="package-card esencial">
+                <div class="package-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="package-content">
+                    <h3 class="package-name">Paquete Esencial</h3>
+                    <p class="package-sessions">(4 SESIONES)</p>
+
+                    <div class="package-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">4 sesiones psicológicas personalizadas.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">Acceso exclusivo al taller o charla del mes con precio especial.</p>
+                        </div>
+                    </div>
+
+                    <a href="contacto.html" class="package-button">Ver Más</a>
+                </div>
+            </div>
+
+            <!-- Paquete Avanzado -->
+            <div class="package-card avanzado">
+                <div class="popular-badge">Popular</div>
+                <div class="package-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="package-content">
+                    <h3 class="package-name">Paquete Avanzado</h3>
+                    <p class="package-sessions">(8 SESIONES)</p>
+
+                    <div class="package-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">8 sesiones psicológicas personalizadas.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">1 taller gratuito impartido por un especialista en el tema elegido.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">Acceso exclusivo al taller o charla del mes con precio especial.</p>
+                        </div>
+                    </div>
+
+                    <a href="contacto.html" class="package-button">Ver Más</a>
+                </div>
+            </div>
+
+            <!-- Paquete Integral -->
+            <div class="package-card integral">
+                <div class="package-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="package-content">
+                    <h3 class="package-name">Paquete Integral</h3>
+                    <p class="package-sessions">(12 SESIONES)</p>
+
+                    <div class="package-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">12 sesiones psicológicas personalizadas.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">2 talleres gratuitos (uno por mes), dictados por un experto.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <p class="feature-text">Acceso exclusivo al taller o charla del mes con precio especial.</p>
+                        </div>
+                    </div>
+
+                    <a href="contacto.html" class="package-button">Ver Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SERVICIOS ESPECÍFICOS -->
+        <section class="specific-services">
+            <div class="section-header">
+                <h2>SERVICIOS</h2>
+                <p>Atención especializada para diferentes necesidades</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Terapia Ansiedad -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/ansiedad.webp" alt="Terapia para Ansiedad">
+                        <div class="service-overlay">
+                            <i class="fas fa-heart-pulse"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Terapia para ansiedad</h3>
+                        <p>Te ayudamos a identificar y manejar los síntomas de ansiedad mediante técnicas especializadas y un acompañamiento personalizado.</p>
+                        <a href="TerapiaAns.html" class="service-link">Ver más detalles <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Terapia Depresión -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/depresion.jpg" alt="Terapia para Depresión">
+                        <div class="service-overlay">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Terapia para depresión</h3>
+                        <p>Trabajamos juntos para superar los síntomas depresivos, recuperar tu motivación y encontrar nuevamente el sentido de bienestar en tu vida.</p>
+                        <a href="TerapiaDep.html" class="service-link">Ver más detalles <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Terapia de Pareja -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="img/terapia-de-pareja.jpeg" alt="Terapia de Pareja">
+                        <div class="service-overlay">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Terapia de pareja</h3>
+                        <p>Mejoramos la comunicación, resolvemos conflictos y fortalecemos el vínculo emocional para construir una relación más saludable y feliz.</p>
+                        <a href="TerapiaPareja.html" class="service-link">Ver más detalles <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="benefits-section">
+            <div class="section-header">
+                <h2>TE AYUDAMOS A SENTIRTE MEJOR</h2>
+                <p>Nuestros Beneficios</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Espacio Seguro</h3>
+                    <p>Un ambiente confidencial y libre de juicios donde puedes expresarte con total libertad y confianza.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Enfoque Integral</h3>
+                    <p>Trabajamos con técnicas basadas en evidencia científica adaptadas a tus necesidades específicas.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Acompañamiento</h3>
+                    <p>Estarás acompañado en todo tu proceso terapéutico con un seguimiento constante y personalizado.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Cercanía Profesional</h3>
+                    <p>Atención cercana y humanizada sin perder la profesionalidad y ética que merecen tus cuidados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ ACCORDION -->
+        <section class="faq-section">
+            <div class="faq-container">
+                <h2>Atendemos tus dudas aquí</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>¿Cómo puedo saber qué paquete es el indicado para mí?</span>
+                            <i class="fas fa-plus accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>En la primera sesión evaluamos tu situación y te recomendamos el paquete más adecuado según tus necesidades y objetivos terapéuticos.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>¿Qué sucede si no puedo asistir a una sesión?</span>
+                            <i class="fas fa-plus accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Puedes reprogramar tu sesión con al menos 24 horas de anticipación sin costo adicional.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>¿Puedo cambiar de paquete si lo he contratado?</span>
+                            <i class="fas fa-plus accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Sí, puedes ajustar tu paquete según tu evolución. Conversaremos las opciones disponibles en cualquier momento.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>¿Defiendes a pacientes de cualquier edad?</span>
+                            <i class="fas fa-plus accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Atendemos adolescentes, adultos y adultos mayores. Para menores de edad se requiere el consentimiento de los padres o tutores.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>¿Qué formación tienen los profesionales que atienden?</span>
+                            <i class="fas fa-plus accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Estamos colegiados, habilitados y contamos con especialización en diferentes áreas de la psicología clínica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Da el primer paso hacia tu bienestar emocional.</h2>
+                <h3>¡Agenda tu sesión ahora!</h3>
+                <a href="contacto.html" class="cta-btn">CONTÁCTANOS</a>
+            </div>
+        </section>
+    </main>
+<!-- FOOTER -->
+    <footer class="footer-creative">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="brand-header">
+                    <img src="img/logof.png" alt="PsicoMotiva">
+                    <h2>PsicoMotiva</h2>
+                </div>
+                <p class="brand-text">
+                    Acompañamos tu bienestar emocional con atención psicológica
+                    profesional, humana y totalmente confidencial.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span class="footer-email">
+                    <a href="mailto:ipdecti2050@gmail.com">ipdecti2050@gmail.com</a>
+                </span>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div class="footer-hours">
+                <h4>Horarios de Atención</h4>
+                <div class="hour-item">
+                    <span>Lunes - Viernes</span>
+                    <strong>10:00 am – 8:00 pm</strong>
+                </div>
+                <div class="hour-item">
+                    <span>Sábados</span>
+                    <strong>8:00 am – 12:00 pm</strong>
+                </div>
+            </div>
+
+            <div class="footer-payments">
+                <h4>Métodos de Pago</h4>
+                <div class="payment-grid">
+                    <img src="img/yape.png" alt="Yape" data-banco="yape">
+                    <img src="img/plin.png" alt="Plin" data-banco="plin">
+                    <img src="img/bcp.png" alt="BCP" data-banco="bcp">
+                    <img src="img/bbva.png" alt="BBVA" data-banco="bbva">
+                    <img src="img/scotiabank.png" alt="Scotiabank" data-banco="scotiabank">
+                    <img src="img/crediscotia.png" alt="CrediScotia" data-banco="crediscotia">
+                    <img src="img/interbank.png" alt="Interbank" data-banco="interbank">
+                    <img src="img/banco-nacion.png" alt="Banco de la Nación" data-banco="banconacion">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+             <p> © 2025 PSICOMOTIVA · Bienestar emocional profesional · 
+        Desarrollado por <strong>GN Studio</strong></p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalBanco">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <h2 class="modal-title">¡CONECTA CONTIGO, DESDE AHORA!</h2>
+            <p class="modal-subtitle">Realiza tu depósito o transferencia a nuestra cuenta <strong id="bancoNombre">BBVA</strong> y da el primer paso hacia tu bienestar emocional.</p>
+
+            <div class="banco-logo">
+                <img id="bancoLogo" src="img/bbva.png" alt="Banco">
+            </div>
+
+            <div id="cuentasContainer">
+                <!-- Se llenará dinámicamente -->
+            </div>
+
+            <div class="titular-info">
+                <i class="fas fa-user"></i>
+                <span class="titular-nombre">A nombre de: Beder Henry Meza V.</span>
+            </div>
+
+            <p class="modal-footer-text">
+                Luego de realizar el pago, envíanos tu comprobante por WhatsApp para confirmar tu sesión.
+            </p>
+        </div>
+    </div>
+   <script src="JS/TerapiaPareja.js"></script>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/51989077759?text=Hola,%20necesito%20una%20consulta" 
+       class="whatsapp-float" 
+       target="_blank" 
+       aria-label="WhatsApp">
+      <span class="whatsapp-tooltip">¿Necesitas ayuda?</span>
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="JS/servicios.js"></script>
+</body>
+</html>

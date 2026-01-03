@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - PsicoMotiva</title>
+    <link rel="icon" type="image/png" href="img/icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="CSS/index.css" />
+
+    <!-- CSS de Blog -->
+    <link rel="stylesheet" href="CSS/blog.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo2.png" alt="PsicoMotiva Logo" class="logo-img" />
+          <div class="brand-text ms-3">
+            <div class="brand-title">PSICÓLOGO</div>
+            <div class="brand-name">Beder H. Meza Villanueva</div>
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#servicios"
+                id="serviciosDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Servicios
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-custom"
+                aria-labelledby="serviciosDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="servicios.html"
+                  >
+                    <i class="fas fa-clinic-medical me-2"></i>
+                    Servicios Generales
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaAns.html">
+                    <i class="fas fa-heart-pulse me-2"></i>
+                    Terapia para la Ansiedad
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaDep.html">
+                    <i class="fas fa-brain me-2"></i>
+                    Terapia para la Depresión
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="TerapiaPareja.html">
+                    <i class="fas fa-heart me-2"></i>
+                    Terapia de Pareja
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/tupagina"
+              target="_blank"
+              class="social-link facebook"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/tupagina"
+              target="_blank"
+              class="social-link instagram"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@tupagina"
+              target="_blank"
+              class="social-link tiktok"
+              aria-label="TikTok"
+            >
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/tupagina"
+              target="_blank"
+              class="social-link linkedin"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <!-- Hero Blog con imagen de fondo -->
+      <section class="hero-blog">
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">NUESTRO BLOG</h1>
+            <p class="hero-description">
+              Lee artículos que te ayudarán a entender y<br />
+              mejorar tu salud emocional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Buscador y Filtros -->
+      <section class="search-section">
+        <div class="container">
+          <div class="search-box">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Buscar artículo..."
+              class="search-input"
+            />
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!-- Filtros por categoría -->
+          <div class="category-filters">
+            <button class="filter-btn active" onclick="filterByCategory('all')">
+              <i class="fas fa-th"></i> Todos
+            </button>
+            <button class="filter-btn" onclick="filterByCategory('ansiedad')">
+              <i class="fas fa-heart-pulse"></i> Ansiedad
+            </button>
+            <button class="filter-btn" onclick="filterByCategory('depresión')">
+              <i class="fas fa-brain"></i> Depresión
+            </button>
+            <button class="filter-btn" onclick="filterByCategory('relaciones')">
+              <i class="fas fa-heart"></i> Relaciones
+            </button>
+            <button class="filter-btn" onclick="filterByCategory('bienestar')">
+              <i class="fas fa-spa"></i> Bienestar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Artículos del Blog -->
+      <section class="articles-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Artículos Recientes</h2>
+            <p>Descubre contenido valioso para tu bienestar emocional</p>
+          </div>
+
+          <div class="articles-grid">
+            <!-- Artículo 1 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog1.jpg" alt="Ansiedad" />
+                <div class="card-category ansiedad">Ansiedad</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 15 Dic 2025</span>
+                  <span><i class="far fa-clock"></i> 5 min</span>
+                </div>
+                <h3 class="card-title">
+                  ¿Ansiedad disfrazada? 7 señales ocultas que pueden estar
+                  afectando tu bienestar
+                </h3>
+                <p class="card-excerpt">
+                  Descubre 7 señales ocultas de ansiedad que podrías estar
+                  ignorando. Identifícalas a tiempo y mejora tu bienestar con
+                  ayuda profesional.
+                </p>
+                <a
+                  href="https://www.infobae.com/salud/2025/09/26/mas-alla-del-estres-7-claves-para-identificar-un-trastorno-de-ansiedad/"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Artículo 2 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog2.jpg" alt="Depresión" />
+                <div class="card-category depresion">Depresión</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 10 Dic 2025</span>
+                  <span><i class="far fa-clock"></i> 6 min</span>
+                </div>
+                <h3 class="card-title">
+                  Depresión: Diferencias entre tristeza y un trastorno que
+                  requiere atención
+                </h3>
+                <p class="card-excerpt">
+                  Aprende a identificar las diferencias entre la tristeza
+                  temporal y la depresión clínica. Conoce cuándo es momento de
+                  buscar ayuda profesional.
+                </p>
+                 <a
+                  href="https://www.forumterapeutic.com/2024/09/26/depresion-y-tristeza/"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Artículo 3 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog3.jpg" alt="Relaciones" />
+                <div class="card-category pareja">Relaciones</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 5 Dic 2025</span>
+                  <span><i class="far fa-clock"></i> 7 min</span>
+                </div>
+                <h3 class="card-title">
+                  7 consejos de comunicación que fortalecen las relaciones de
+                  pareja
+                </h3>
+                <p class="card-excerpt">
+                  Descubre técnicas efectivas de comunicación que pueden
+                  transformar tu relación y crear vínculos más profundos con tu
+                  pareja.
+                </p>
+                 <a
+                  href="https://www.uag.mx/es/mediahub/7-consejos-para-mejorar-la-comunicacion-afectiva-con-tu-pareja/2022-02"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Artículo 4 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog4.jpg" alt="Autocuidado" />
+                <div class="card-category bienestar">Bienestar</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 1 Dic 2025</span>
+                  <span><i class="far fa-clock"></i> 5 min</span>
+                </div>
+                <h3 class="card-title">
+                  El autocuidado no es egoísmo: Por qué priorizarte es
+                  fundamental
+                </h3>
+                <p class="card-excerpt">
+                  Entiende por qué cuidar de ti mismo no es egoísta, sino una
+                  necesidad vital para tu salud mental y emocional.
+                </p>
+                 <a
+                  href="https://karinsieger.com/por-que-el-autocuidado-no-es-egoismo-sino-esencial-para-nuestro-bienestar/"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Artículo 5 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog5.jpg" alt="Estrés" />
+                <div class="card-category ansiedad">Estrés</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 28 Nov 2025</span>
+                  <span><i class="far fa-clock"></i> 6 min</span>
+                </div>
+                <h3 class="card-title">
+                  Técnicas de respiración y mindfulness para reducir el estrés
+                  diario
+                </h3>
+                <p class="card-excerpt">
+                  Aprende ejercicios prácticos de respiración y mindfulness que
+                  puedes aplicar en cualquier momento para manejar el estrés.
+                </p>
+                 <a
+                  href="https://medlineplus.gov/spanish/ency/patientinstructions/000874.htm"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Artículo 6 -->
+            <article class="blog-card">
+              <div class="card-image">
+                <img src="img/blog6.jpg" alt="Trauma" />
+                <div class="card-category depresion">Trauma</div>
+              </div>
+              <div class="card-body">
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 22 Nov 2025</span>
+                  <span><i class="far fa-clock"></i> 8 min</span>
+                </div>
+                <h3 class="card-title">
+                  Sanar heridas del pasado: El proceso de trabajar traumas
+                  emocionales
+                </h3>
+                <p class="card-excerpt">
+                  Conoce el proceso terapéutico para trabajar traumas y cómo la
+                  terapia profesional puede ayudarte a sanar heridas del pasado.
+                </p>
+                 <a
+                  href="https://elpradopsicologos.es/blog/heridas-emocionales-sanar-el-pasado/"
+                  class="card-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LEER MÁS <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Estadísticas del Blog -->
+      <section class="stats-section">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <h3 class="stat-number" data-target="150">0</h3>
+              <p class="stat-label">Artículos Publicados</p>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3 class="stat-number" data-target="5000">0</h3>
+              <p class="stat-label">Lectores Mensuales</p>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="stat-number" data-target="98"></h3>
+              <p class="stat-label">Satisfacción</p>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3 class="stat-number" data-target="320">0</h3>
+              <p class="stat-label">Comentarios Positivos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recursos Gratuitos -->
+      <section class="resources-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Recursos Gratuitos</h2>
+            <p>Descarga material de apoyo para tu bienestar emocional</p>
+          </div>
+          <div class="resources-grid">
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="fas fa-file-pdf"></i>
+              </div>
+              <h3>Guía de Mindfulness</h3>
+              <p>
+                10 ejercicios prácticos para comenzar tu práctica de mindfulness
+                hoy mismo.
+              </p>
+              <a
+                href="https://www.calm.com/blog/mindfulness-exercises"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="download-btn"
+              >
+                <i class="fas fa-download"></i> Ir a enlace
+              </a>
+            </div>
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="fas fa-headphones"></i>
+              </div>
+              <h3>Meditaciones Guiadas</h3>
+              <p>
+                Audio de 15 minutos para relajación profunda y reducción de
+                estrés.
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=uUnn3DvIioc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="download-btn"
+              >
+                <i class="fas fa-play"></i> Escuchar
+              </a>
+            </div>
+            <div class="resource-card">
+              <div class="resource-icon">
+                <i class="fas fa-calendar-check"></i>
+              </div>
+              <h3>Diario Emocional</h3>
+              <p>
+                Plantilla para llevar un registro de tus emociones y
+                pensamientos diarios.
+              </p>
+              
+            <a
+    href="https://edit.org/edit/cat/0"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="download-btn"
+>
+    <i class="fas fa-download"></i> Ir a plantilla
+</a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer-creative">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="brand-header">
+            <img src="img/logof.png" alt="PsicoMotiva" />
+            <h2>PsicoMotiva</h2>
+          </div>
+          <p class="brand-text">
+            Acompañamos tu bienestar emocional con atención psicológica
+            profesional, humana y totalmente confidencial.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social linkedin"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <span class="footer-email">
+            <a href="mailto:ipdecti2050@gmail.com">ipdecti2050@gmail.com</a>
+          </span>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Navegación</h4>
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="footer-hours">
+          <h4>Horarios de Atención</h4>
+          <div class="hour-item">
+            <span>Lunes - Viernes</span>
+            <strong>10:00 am – 8:00 pm</strong>
+          </div>
+          <div class="hour-item">
+            <span>Sábados</span>
+            <strong>8:00 am – 12:00 pm</strong>
+          </div>
+        </div>
+
+        <div class="footer-payments">
+          <h4>Métodos de Pago</h4>
+          <div class="payment-grid">
+            <img src="img/yape.png" alt="Yape" data-banco="yape" />
+            <img src="img/plin.png" alt="Plin" data-banco="plin" />
+            <img src="img/bcp.png" alt="BCP" data-banco="bcp" />
+            <img src="img/bbva.png" alt="BBVA" data-banco="bbva" />
+            <img
+              src="img/scotiabank.png"
+              alt="Scotiabank"
+              data-banco="scotiabank"
+            />
+            <img
+              src="img/crediscotia.png"
+              alt="CrediScotia"
+              data-banco="crediscotia"
+            />
+            <img
+              src="img/interbank.png"
+              alt="Interbank"
+              data-banco="interbank"
+            />
+            <img
+              src="img/banco-nacion.png"
+              alt="Banco de la Nación"
+              data-banco="banconacion"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+         <p> © 2025 PSICOMOTIVA · Bienestar emocional profesional · 
+        Desarrollado por <strong>GN Studio</strong></p>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalBanco">
+      <div class="modal-content">
+        <button class="modal-close" id="closeModal">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <h2 class="modal-title">¡CONECTA CONTIGO, DESDE AHORA!</h2>
+        <p class="modal-subtitle">
+          Realiza tu depósito o transferencia a nuestra cuenta
+          <strong id="bancoNombre">BBVA</strong> y da el primer paso hacia tu
+          bienestar emocional.
+        </p>
+
+        <div class="banco-logo">
+          <img id="bancoLogo" src="img/bbva.png" alt="Banco" />
+        </div>
+
+        <div id="cuentasContainer">
+          <!-- Se llenará dinámicamente -->
+        </div>
+
+        <div class="titular-info">
+          <i class="fas fa-user"></i>
+          <span class="titular-nombre">A nombre de: Beder Henry Meza V.</span>
+        </div>
+
+        <p class="modal-footer-text">
+          Luego de realizar el pago, envíanos tu comprobante por WhatsApp para
+          confirmar tu sesión.
+        </p>
+      </div>
+    </div>
+    <script src="JS/TerapiaPareja.js"></script>
+
+    <!-- BOTÓN WHATSAPP -->
+    <a
+      href="https://wa.me/51989077759?text=Hola,%20necesito%20una%20consulta"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="WhatsApp"
+    >
+      <span class="whatsapp-tooltip">¿Necesitas ayuda?</span>
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/blog.js"></script>
+  </body>
+</html>
